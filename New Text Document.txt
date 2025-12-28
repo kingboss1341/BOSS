@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="center">
+  <img src="logo.png" class="logo">
+  <h1>OMAR BIN ABDI ASIIS</h1>
+  <p class="slogan">Waxbaro aan Barwaaqo Garnee</p>
+  <button onclick="location.href='roles.html'">Bilow ▶</button>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dooro Qayb</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Dooro Qaybtaada</h2>
+
+<div class="roles">
+  <div onclick="selectRole('Maamul')">Maamulka</div>
+  <div onclick="selectRole('Macalin')">Macalinka</div>
+  <div onclick="selectRole('Ardey')">Ardeyga</div>
+  <div onclick="selectRole('Waalid')">Waalidka</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign In</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-page">
+  <img src="logo.png" class="logo small">
+  <h3 id="roleTitle"></h3>
+
+  <input type="text" placeholder="ID Number">
+  <input type="password" placeholder="Password">
+  <button onclick="login()">Sign In</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Maamul Dashboard</h2>
+
+<div class="dash">
+  <div>👨‍🏫 Macalimiin<br><b>25</b></div>
+  <div>🎓 Ardey<br><b>320</b></div>
+  <div>👨‍👩‍👧 Waalidiin<br><b>300</b></div>
+</div>
+
+<button onclick="location.href='goodbye.html'">Logout</button>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mahadsanid</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="center">
+  <h2>Mahadsanid 👋</h2>
+  <p class="slogan">
+    Waxbaro aan Barwaaqo Garnee
+    <br>
+    Aqoontu waa iftiinka nolosha
+  </p>
+  <button onclick="location.href='index.html'">Dib u Bilow</button>
+</div>
+
+</body>
+</html>
